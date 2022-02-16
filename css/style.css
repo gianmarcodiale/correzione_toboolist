@@ -17,7 +17,7 @@
 body {
     margin: 0;
     background-color: var(--pg_background);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -36,22 +36,30 @@ main {
 /* Header */
 
 .logo {
-    vertical-align: bottom;
-    height: 40px;
+    vertical-align: middle;
+    height: 80px;
     width: auto;
+    margin: auto;
 }
 
 .logo_text {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Actions */
+
+.actions {
+    padding: 1rem 2.5rem;
+    border-bottom: 2px solid var(--pg_background);
+}
 
 .btn {
     background-color: transparent;
     border: none;
     padding: 0.75rem;
     border-radius: 0.75rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 .btn_primary {
@@ -63,11 +71,6 @@ main {
 .btn_outline {
     border: 1px solid var(--light_color);
     color: var(--light_color);
-}
-
-.actions {
-    padding: 1.5rem 2.5rem;
-    border-bottom: 2px solid var(--pg_background);
 }
 
 /* New Task */
