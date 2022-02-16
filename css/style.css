@@ -33,6 +33,11 @@ main {
     border-radius: 0.75rem;
 }
 
+footer {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
 /* Header */
 
 .logo {
@@ -45,6 +50,11 @@ main {
 .logo_text {
     font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
+}
+
+#copyright {
+    margin-left: 2px;
+    font-size: 15px;
 }
 
 /* Actions */
@@ -60,6 +70,7 @@ main {
     padding: 0.75rem;
     border-radius: 0.75rem;
     font-family: 'Raleway', sans-serif;
+    display: inline-block;
 }
 
 .btn_primary {
@@ -76,18 +87,60 @@ main {
 /* New Task */
 
 .tasks {
-    padding: 1.5rem 2.5rem;
+    padding: 1rem 2.5rem;
 }
 
 .style_none {
     list-style: none;
-    padding-left: 0.25rem;
+    padding-left: 0;
 }
 
 .icon {
     display: inline-block;
     width: 20px;
     height: 20px;
-    border-radius: 50%;
     text-align: center;
 }
+
+.check {
+    color: var(--recruiting_color);
+    font-size: 1.5rem;
+}
+
+.cross {
+    color: var(--danger_color);
+    font-size: 1.5rem;
+}
+
+.badge {
+    padding: 0.5rem;
+    font-size: 0.6rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    color: var(--white);
+}
+
+.badge_editorial {
+    background-color: var(--primary_color);
+}
+
+.badge_goals {
+    background-color: var(--goals_color);
+}
+
+.badge_recruiting {
+    background-color: var(--recruiting_color);
+}
+
+.badge_mobile {
+    background-color: var(--mobile_color);
+}
+
+.badge_sales {
+    background-color: var(--sales_color);
+}
+
+.badge_website {
+    background-color: var(--website_color);
+}
+ 
